@@ -1,0 +1,831 @@
+@font-face {
+    font-family: "Exo";
+    src: url(../fonts/Exo/Exo-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+body,h1,h2,h3,h4,h5,h6{
+margin: 0 ;
+}
+body{
+    font-family: "Exo" , sans-serif;
+}
+.continar{
+    width: 90%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+}
+.p-t{
+    margin-top: 30px;
+}
+.text-centar{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.w-25{
+    width: 25%;
+}
+.font-size{
+    font-size: 250%;
+}
+/* .sticky{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+} */
+img{
+    width: 100%;
+}
+.p-y{
+    padding: 30px 0;
+}
+.p-x{
+    padding: 0 30px;
+}
+
+/* navbar */
+.navbar{
+    background-color: #F5F3FF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 10px;
+    
+}
+
+.tex-color{
+    color: #8E51FF;
+}
+.left-logo{
+
+    align-items: center;
+    gap: 20px;
+    /* padding: 5px; */
+    /* background-color: blueviolet; */
+
+}
+.ragit-link{
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+.navbar .logo{
+    width: 40px;
+    background-color: #8E51FF;
+    border-radius: 10px;
+    padding: 10px;
+}
+.navbar .continar{
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+}
+.ragit-link a{
+    gap: 30px;
+    color: #000;
+    font-size: 130%;
+    padding: 20px;
+    transition: color,text-decoration 1;
+}
+
+.ragit-link a:hover{
+    color: #3c099a;
+    text-decoration: underline;
+}
+
+.navbar .ragit-link{
+    display: none;
+}
+
+/* section DJI Mavic 4 Pro */
+
+
+.mavic-perant .eyrdrop-photo{
+    border: 2px solid #E0E3E7;
+    border-radius: 20px;
+    /* gap: 20px; */
+    position: relative;
+    padding: 5px;
+    width: 100%;
+
+
+}
+.mavic-perant .eyrdrop-photo img{
+    padding: 5px;
+    border-radius: 20px;
+}
+.mavic-perant .eyrdrop-photo .layuot{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #8E51FF;
+    position: absolute;
+    color: whitesmoke;
+    top: 30px;
+    left: 40px;
+}
+.mavic-perant{
+    padding-top: 50px;
+}
+header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.mavic-perant .mavic-pro{
+    flex-direction: column;
+    padding-left: 40px;
+    /* padding-top: 40px; */
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.mavic-contant h1{
+    font-size: 350%;
+    padding: 20px 0;
+}
+.mavic-contant p{
+    padding: 10px;
+}
+
+.mavic-pro .mavic-payments {
+    gap: 30px;
+    align-items: center;
+}
+.mavic-pro .span-style span{
+background-color: #A684FF;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    margin-left: 5px;
+    
+}
+
+.mavic-pro .mavic-payments span{
+    background-color: #FFE2E2;
+    border-radius: 20px;
+    padding: 5px;
+    color: #E7000B;
+    font-size: 15px;
+}
+.mavic-pro .btn-mavic{
+    flex-direction: column;
+    gap: 20px;
+}
+.mavic-pro .btn-mavic .bac-col {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 130%;
+    color: white;
+    background-color: #8E51FF;
+    cursor: pointer;
+}
+.mavic-pro .btn-mavic  .bg-col{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 130%;
+    color: #000;
+    cursor: pointer;
+}
+.mavic-pro .btn-mavic button img{
+    width: 5%;
+}
+.explore{
+    background-color: #F7F5FF;
+    padding: 50px 0px;
+
+}
+
+
+.explore .continar .content-heed{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.explore .content-heed h2{
+    font-size: 250%;
+    padding: 20px 0;
+}
+.explore .content-heed p{
+    padding-bottom: 20px;
+}
+.explore .carde .camera img{
+    width: 20%;
+    background-color: #EDE9FE;
+    border-radius: 20px;
+    padding: 10px;
+}
+.explore .perannt {
+    justify-content: space-between;
+    padding: 20px;
+}
+.explore .perannt .inaer{
+    padding: 10px;
+    width: 100%;
+}
+.explore .inaer .carde{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.explore .inaer .carde .camera{
+    flex-direction: column;
+    gap: 15px;
+}
+.explore .carde .camera span{
+    color:#8E51FF;
+    font-size: 100%;
+    padding: 20px 0;
+
+}
+.explore .carde .camera .resolution{
+    border-top: 1px solid #A684FF;
+}
+.explore .carde .camera .resolution span{
+    font-size: 250%;
+}
+.explore .perspective{
+    background-color: #6b31d5;
+    padding: 30px;
+border-radius: 20px;
+color: white;
+justify-content: space-between;
+align-items: center;
+
+}
+.explore .perspective .made-for{
+    width: 75;
+}
+.explore .perspective .explore-link a{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: #6b31d5;
+    display: none;
+    background-color: white;
+}
+
+p{
+    font-size: 130%;
+    color: #2e2f31;
+}
+.customers .reviews{
+    /* background-color: brown; */
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #E0E3E7;
+    margin-top: 50px;
+    
+
+}
+
+.customers .stars{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+    font-size: large;
+}
+.customers .stars img{
+    width: 20%;
+}
+
+.customers .quality-rating .star-5{
+    width: 100%;
+    padding: 10px 20px ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.customers .quality-rating .star-5 .woorm-line{
+ width: 70%;
+ height: 10px;
+ background-color: #E5E7EB;
+ position: relative;
+ border-radius: 15px;
+
+}
+.customers .quality-rating .star-5 .gold-line{
+    width: 78%;
+ height: 10px;
+ background-color: #F0B100;
+ position: absolute;
+ border-radius: 15px;
+}
+.customers .quality-rating .star-5{
+    width: 100%;
+}
+
+
+
+.customers .quality-rating .star-4{
+    width: 100%;
+    padding:  10px 20px ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.customers .quality-rating .star-4 .woorm-line{
+ width: 70%;
+ height: 10px;
+ background-color: #E5E7EB;
+ position: relative;
+ border-radius: 15px;
+
+}
+.customers .quality-rating .star-4 .gold-line{
+    width: 15%;
+ height: 10px;
+ background-color: #F0B100;
+ position: absolute;
+ border-radius: 15px;
+}
+.customers .quality-rating .star-4{
+    width: 100%;
+}
+
+.customers .quality-rating .star-3{
+    width: 100%;
+    padding:  10px 20px  ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.customers .quality-rating .star-3 .woorm-line{
+ width: 70%;
+ height: 10px;
+ background-color: #E5E7EB;
+ position: relative;
+ border-radius: 15px;
+
+}
+.customers .quality-rating .star-3 .gold-line{
+    width: 5%;
+ height: 10px;
+ background-color: #F0B100;
+ position: absolute;
+ border-radius: 15px;
+}
+.customers .quality-rating .star-3{
+    width: 100%;
+}
+.customers .quality-rating .star-2{
+    width: 100%;
+    padding:  10px 20px ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.customers .quality-rating .star-2 .woorm-line{
+ width: 70%;
+ height: 10px;
+ background-color: #E5E7EB;
+ position: relative;
+ border-radius: 15px;
+
+}
+.customers .quality-rating .star-2 .gold-line{
+    width: 1.5%;
+ height: 10px;
+ background-color: #F0B100;
+ position: absolute;
+ border-radius: 15px;
+}
+.customers .quality-rating .star-2{
+    width: 100%;
+}
+
+
+.customers .quality-rating .star-1{
+    width: 100%;
+    padding:  10px 20px  ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.customers .quality-rating .star-1 .woorm-line{
+ width: 70%;
+ height: 10px;
+ background-color: #E5E7EB;
+ position: relative;
+ border-radius: 15px;
+
+}
+.customers .quality-rating .star-1 .gold-line{
+    width: 0.5%;
+ height: 10px;
+ background-color: #F0B100;
+ position: absolute;
+ border-radius: 15px;
+}
+.customers .quality-rating .star-1{
+    width: 100%;
+}
+.customers .reviews .recommend{
+    border-top:2px solid #E0E3E7 ;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.customers .reviews .recommend  p{
+    font-size: 100%;
+}
+.customers .customer-say {
+    width: 100%;
+    margin-top:20px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.customers .customer-say .rihgt-cast{
+    padding: 30px;
+    border: 2px solid #E0E3E7;
+    border-radius: 20px;
+}
+
+.customers .our-customers{
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.customers .our-customers .marcus-chen{
+    width: 10%;
+    
+}
+.customers .left-cast{
+    justify-content: space-evenly;
+    align-items: start;
+}
+.customers .left-cast .marcus-chen{
+    width: 20%;
+}
+.customers .left-cast .star-aicon{
+    width: 50%;
+}
+
+.customers .customer-say .marcus-chen img{
+    border-radius: 50%;
+    border: 1px solid #8E51FF;
+}
+
+.customers .our-customers .star-aicon img{
+    width: 10%;
+    
+}
+.customers .customer-say P{
+    font-size: large;
+    
+}
+.customers .customer-say .verified-purchase span{
+    background-color: #EDE9FE;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #6b31d5;
+    
+}
+.customers .customer-say .rihgt-cast .verified-purchase{
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.customers .customer-say .btn{
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+    border: none;
+    color: #F5F3FF;
+    background-color: #8E51FF;
+    border-radius: 30px;
+    font-size: 150%;
+    cursor: pointer;
+    transition:background-color
+    colo
+    border
+     1s ;
+}
+.customers .customer-say .btn:hover{
+    background-color: white;
+    color: #3c099a;
+    border: 2px solid #3c099a;
+}
+.complete{
+     margin: 30px 0;
+     background-color: #F7F5FF;
+}
+.complete span{
+    color: #8E51FF;
+}
+
+.complete .pairant-detup .setup-pro{
+    margin: 30px 0;
+    
+    border: 1px solid #E0E3E7;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+
+}
+.complete .pairant-detup{
+    justify-content: space-between;
+    align-items: center;
+
+}
+.complete .pairant-detup .caild-pro{
+    padding: 10px;
+    width: 100%;
+    
+}
+.complete .pairant-detup .setup-pro{
+    background-color: white;
+}
+.complete .pairant-detup .setup-pro img{
+    
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+.complete .pairant-detup .setup-pro .bottom-card{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 150%;
+}
+
+.pairant-detup .setup-pro .bottom-card button{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 100%;
+    background-color: #8E51FF;
+}
+.complete .pairant-detup .setup-pro .layuot{
+ padding: 5px;
+ border-radius: 15px;
+ background-color:  #A684FF;
+ position: absolute;
+ color: whitesmoke;
+ top: 40px;
+ left: 40px;
+
+}
+
+ .btn{
+ margin: auto;
+ padding: 15px;
+ margin: 40px auto;
+ border: 2px solid #5225a7;
+ color: #5f0ef7;
+ background-color: #f6f8fb;
+ border-radius: 30px;
+ font-size: 130%;
+ cursor: pointer;
+ transition:background-color,
+    color
+1s  ;
+}
+
+.btn:hover{
+    background-color: #3c099a;
+    color: white;
+}
+
+
+
+footer{
+    background-color: #101828;
+    color: white;
+}
+footer p{
+    color: #84878c;
+    transition: color .5s;
+}
+footer p:hover{
+    color: white;
+}
+footer .mini{
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+footer .continar{
+    align-items: flex-start;
+}
+footer .mini .djl{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    
+}
+footer .mini .djl img{
+    width: 20%;
+    padding: 10px;
+    border-radius: 14px;
+    background-color: #6b31d5;
+    margin: 20px 0;
+}
+footer .mini .icon-social img{
+    width: 80%;
+    gap: 10px;
+    background-color: #172131;
+}
+footer .products{
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    margin: 20px 0;
+}
+footer .support{
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    margin: 20px 0;
+
+}
+footer .company{
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    margin: 20px 0;
+
+}
+
+footer .privacy{
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-top: 1px solid #E0E3E7;
+
+}
+footer .privacy .left-content{
+    width: 100%;
+    text-align: center;
+}
+footer .privacy .rhigt-content{
+    /* height: 200px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    
+    gap: 20px;
+    
+    /* padding: 20px; */
+}
+footer .privacy .rhigt-content .img-payor{
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+footer .privacy .rhigt-content .img-payor img{
+    width: 100%;
+}
+footer .privacy .rhigt-content .mastar{
+padding: 17px 30px;
+/* background-color: white; */
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    
+}
+@media screen and (min-width:601px){
+    
+.navbar .ragit-link{
+    display: block;
+}
+.explore .perannt .inaer{
+    width: 50%;
+}
+.complete .pairant-detup .caild-pro{
+    width: 50%;
+}
+footer .mini{
+width: 50%;
+}
+
+footer .products{
+    width: 50%;
+}
+footer .privacy .left-content{
+    width: 50%;
+}
+footer .privacy .rhigt-content{
+    width: 50%;
+}
+footer .privacy .rhigt-content .img-payor{
+    width: 25%;
+}
+}
+@media screen and (min-width:1001px){
+    .navbar .ragit-link{
+    display: block;
+}
+.mavic-perant .eyrdrop-photo{
+    width: 45%;
+}
+.mavic-perant .mavic-pro{
+    width: 55%;
+    
+
+}
+.explore .perannt .inaer{
+    width: 33.333%;
+}
+
+.explore .perspective .explore-link a{
+    display: block;
+}
+
+.customers .reviews{
+    width: 30%;
+    
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+.customers .customer-say {
+    width: 70%;
+}
+.complete .pairant-detup .caild-pro{
+    width: 25%;
+}
+footer .mini{
+    width: 25%;
+}
+footer .products{
+    width: 25%;
+}
+
+footer .privacy .rhigt-content .img-payor{
+    width: 15%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
